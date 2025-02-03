@@ -110,4 +110,4 @@ def load_test(num_requests):
 
 # Run the load test with the desired number of requests
 if __name__ == "__main__":
-    load_test(1)  # Change the number to the desired load
+    load_test(10)  # Change the number to the desired load
