@@ -13,8 +13,8 @@ GOOGLE_CALLBACK_URL = 'https://api.thisisblowingmymind.com.au/api/v1/login/googl
 def get_access_token():
     data = {
         'grant_type': '',
-        'username': 'test@test.com',
-        'password': 'password',
+        'username': '', #add user name
+        'password': '', #add password 
         'scope': '',
         'client_id': '',
         'client_secret': ''
